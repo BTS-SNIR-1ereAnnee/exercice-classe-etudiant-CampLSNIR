@@ -20,7 +20,7 @@ void Etudiant::Setnom( std::string nom ){
 void Etudiant::Setnote1( int note ){
 
 	if( note > 20 ){
-		note = 20
+		note = 20;
 	}else if( note < 0 ){
 		note = 0;
 	}
@@ -31,7 +31,7 @@ void Etudiant::Setnote1( int note ){
 void Etudiant::Setnote2( int note ){
 
 	if( note > 10 ){
-		note = 10
+		note = 10;
 	}else if( note < 0 ){
 		note = 0;
 	}
@@ -57,5 +57,5 @@ void Etudiant::afficher(){
 }
 
 float Etudiant::calculerMoyenne(){
-	return (m_note1 + m_note2*2)/2
+	return (m_note1 + m_note2*2)/2;
 }
