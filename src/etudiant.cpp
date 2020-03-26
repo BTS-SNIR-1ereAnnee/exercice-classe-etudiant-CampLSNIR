@@ -53,7 +53,7 @@ int Etudiant::Getnote2(){
 }
 
 void Etudiant::afficher(){
-	std::cout << m_nom << " : " << m_note1 << "/20" << "," << m_note2 << "/10";
+	std::cout << m_nom << " : " << m_note1 << "/20" << "," << m_note2 << "/10\n";
 }
 
 float Etudiant::calculerMoyenne(){
