@@ -57,5 +57,5 @@ void Etudiant::afficher(){
 }
 
 float Etudiant::calculerMoyenne(){
-	return (m_note1 + m_note2*2)/2;
+	return ((float)m_note1 + (float)m_note2*2)/2;
 }
